@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="fr-fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>design_mobile</title>
-</head>
-<body>
-        <div class="container">
-            <select id="select">
-                <option value="price">sort by price</option>
-                <option value="name">sort by name</option>
-                <option value="relevance">sort by relevance</option>
-            </select>
-            <input type="radio" id="price" name="sort">
-            <label for="price">sort by price</label>
-            <input type="radio" id="name" name="sort">
-            <label for="name">sort by name</label>
-            <input type="radio" id="relevance" name="sort">
-            <label for="relevance">sort by relevance</label>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>mobile design</title>
+  </head>
+  <body>
+    <div class="container">
+      <select name="sortBy" id="sortBy">
+        <option value="price">Sort by price</option>
+        <option value="name">Sort by name</option>
+        <option value="relevance">Sort by relevance</option>
+      </select>
+      <input type="radio" id="price" name="sortBy" />
+      <label for="price">Sort by price</label>
+      <input type="radio" id="name" name="sortBy" />
+      <label for="name">Sort by name</label>
+      <input type="radio" id="relevance" name="sortBy" />
+      <label for="relevance">Sort by relevance</label>
+    </div>
+
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
